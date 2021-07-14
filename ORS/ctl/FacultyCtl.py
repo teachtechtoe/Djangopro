@@ -4,7 +4,7 @@ from django.shortcuts import render
 from ORS.utility.DataValidator import DataValidator
 from service.models import Faculty
 from service.forms import FacultyForm
-from service.service.FacultyService import FacultyService
+from service.service.FacultyService import FacultyService #To co-relate web pages
 from service.service.SubjectService import SubjectService
 from service.service.CollegeService import CollegeService
 from service.service.CourseService import CourseService
